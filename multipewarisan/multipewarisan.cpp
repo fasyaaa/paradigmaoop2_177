@@ -52,3 +52,5 @@ int main() {
 	pelajar andi("andi laksono", "laki - laki", "belajar cpp \n");
 	cout << andi.perkenalan();
 }
+
+
