@@ -44,7 +44,7 @@ public:
 	}
 
 	string perkenalan() {
-		return "Hallo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + "";
+		return "Hallo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + " ";
 	}
 };
 
