@@ -43,3 +43,5 @@ public:
 		cout << "Pelajar dihapus\n" << endl;
 	}
 };
+
+
