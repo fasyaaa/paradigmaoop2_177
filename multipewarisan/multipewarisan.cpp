@@ -11,7 +11,7 @@ public :
 		cout << "orang dibuat\n" << endl;
 	}
 	~orang() {
-		cout << "prang dihapus \n" << endl;
+		cout << "orang dihapus \n" << endl;
 	}
 };
 
@@ -44,11 +44,11 @@ public:
 	}
 
 	string perkenalan() {
-		return "Hallo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + " ";
+		return "Hallo, nama saya " + nama + " dengan jenis kelamin " + jenisKelamin + " dari sekolah " + sekolah + "\n\n";
 	}
 };
 
 int main() {
-	pelajar andi("andi laksono", "laki - laki", "belajar retri");
+	pelajar andi("andi laksono", "laki - laki", "belajar cpp \n");
 	cout << andi.perkenalan();
 }
